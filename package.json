@@ -1,0 +1,31 @@
+{
+  "name": "aws-kinesis-producer",
+  "version": "1.0.2",
+  "description": "AWS Kinesis Producer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbvijaybang/node-kinesis-producer.git"
+  },
+  "keywords": [
+    "kinesis-producer",
+    "node-kinesis-producer"
+  ],
+  "dependencies": {
+    "async": "^3.1.0",
+    "aws-sdk": "^2.514.0",
+    "events": "^3.0.0",
+    "hyperid": "^2.0.2",
+    "lodash": "^4.17.15",
+    "p-limit": "^2.2.0"
+  },
+  "author": "Vijay Bang (vbvijaybang@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vbvijaybang/node-kinesis-producer/issues"
+  },
+  "homepage": "https://github.com/vbvijaybang/node-kinesis-producer#readme"
+}
