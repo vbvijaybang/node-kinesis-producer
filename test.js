@@ -3,11 +3,8 @@ const KinesisProducer = require("aws-kinesis-producer");
 
 const options = {
     streamName: "test-stream",
-    schema: null,
-    retryInterval: 1500,
     kinesisClient: null,
     maxDrains: 3,
-    maxRetries: 10,
     maxRecords: 1,
     maxTime: 0,
     chunkSize: 400,
